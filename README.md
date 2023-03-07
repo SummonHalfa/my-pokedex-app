@@ -1,59 +1,36 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+Pokemon Pokedex Project
+Welcome to the Pokemon Pokedex Project! This is a web application built in React.js that allows users to browse and search for information about various Pokemon characters. The project utilizes the PokeAPI to fetch data and display it in a user-friendly way.
 
-## Available Scripts
+Installation
+To run this project locally, follow these steps:
 
-In the project directory, you can run:
+Clone the repository to your local machine using git clone https://github.com/SummonHalfa/my-pokedex-app
+Navigate into the project directory using cd pokemon-pokedex
+Install dependencies using npm install
+Start the development server using npm start
+The application will now be running on localhost:3000.
 
-### `npm start`
+Features
+The Pokemon Pokedex Project has several features, including:
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+A homepage that displays a list of all Pokemon
+A search bar that allows users to search for Pokemon by name
+(TODO) Individual pages for each Pokemon that display detailed information about them, such as their type, abilities, and stats
+Technologies Used
+This project was built using the following technologies:
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+React.js
+PokeAPI
+Axios
+React Router
+Chakra.UI
+Contributing
+If you would like to contribute to this project, please follow these steps:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
-
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
-
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Fork the repository
+Create a new branch with your feature or bug fix using git checkout -b your-branch-name
+Make your changes and commit them using descriptive commit messages
+Push your changes to your fork using git push origin your-branch-name
+Open a pull request on the original repository
+License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
